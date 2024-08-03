@@ -28,7 +28,7 @@ The Typing Speed Calculator is a C program that measures how quickly you can typ
 
 To compile the program, use the following command:
 
-```bash
+```
 gcc -o typing_speed_calculator typing_speed_calculator.c
 ```
 
@@ -36,7 +36,7 @@ gcc -o typing_speed_calculator typing_speed_calculator.c
 
 Run the compiled program:
 
-```bash
+```
 ./typing_speed_calculator
 ```
 
