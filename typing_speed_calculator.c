@@ -1,8 +1,9 @@
 // A simple typing speed calculator program using C
 #include <stdio.h>
-#include <time.h>  // For using clock() function
+#include <time.h>    // For using clock() function
 #include <string.h>  // For using strlen() function
-#include <math.h>  // For using round() function
+#include <math.h>    // For using round() function
+#include <conio.h>  // For using getch() function
 
 int main()
 {
@@ -27,5 +28,6 @@ int main()
 
     printf("\nYour typing speed is %d wpm\n", (int)round(speed));
 
+    getch();
     return 0;
 }
