@@ -31,3 +31,21 @@ To compile the program, use the following command:
 ```bash
 gcc -o typing_speed_calculator typing_speed_calculator.c
 ```
+
+## Usage
+
+Run the compiled program:
+
+```bash
+./typing_speed_calculator
+```
+
+Follow the on-screen prompt to type a sentence. The program will then display your typing speed.
+
+## Example Output
+```
+Enter a sentence
+The quick brown fox jumps over the lazy dog
+
+Your typing speed is 30 wpm
+```
